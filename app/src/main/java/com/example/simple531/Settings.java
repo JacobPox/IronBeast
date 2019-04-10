@@ -11,45 +11,22 @@ public class Settings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
+
+
     }
 
     public void homeMenu(View view) {
+        //Bundle of bundles
+        Bundle allInfo = new Bundle();
+        //allInfo.putBundle("allInfo", maxes);
         Intent myIntent = new Intent(Settings.this, MainActivity.class);
-        /* If I want to send information
-        myIntent.putExtra("key", value); //Optional parameters
-        */
+        myIntent.putExtra("allInfo", allInfo);
         Settings.this.startActivity(myIntent);
     }
 
-    public void liftsMenu(View view) {
-        Intent myIntent = new Intent(Settings.this, Lifts.class);
-        /* If I want to send information
-        myIntent.putExtra("key", value); //Optional parameters
-        */
-        Settings.this.startActivity(myIntent);
-    }
-
-    public void variantMenu(View view) {
-        Intent myIntent = new Intent(Settings.this, Variants.class);
-        /* If I want to send information
-        myIntent.putExtra("key", value); //Optional parameters
-        */
-        Settings.this.startActivity(myIntent);
-    }
-
-    public void jokersMenu(View view) {
-        Intent myIntent = new Intent(Settings.this, Jokers.class);
-        /* If I want to send information
-        myIntent.putExtra("key", value); //Optional parameters
-        */
-        Settings.this.startActivity(myIntent);
-    }
-
-    public void downSetsMenu(View view) {
-        Intent myIntent = new Intent(Settings.this, DownSets.class);
-        /* If I want to send information
-        myIntent.putExtra("key", value); //Optional parameters
-        */
-        Settings.this.startActivity(myIntent);
+    public void programMenu(View view) {
+        Intent myIntent = new Intent(this, Program.class);
+        //myIntent.putExtra("allInfo", allInfo);
+        startActivity(myIntent);
     }
 }

@@ -9,11 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Settings"></activity>
-        <activity android:name=".DownSets" />
-        <activity android:name=".Jokers" />
-        <activity android:name=".Variants" />
-        <activity android:name=".Lifts" />
+        <activity android:name=".Program"></activity>
+        <activity android:name=".Settings" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

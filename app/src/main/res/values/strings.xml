@@ -3,28 +3,27 @@
 
     <!-- activity_main -->
 
-    <string name="instruction1TextView">1. You should buy the book to understand the program. Jim Wendler\'s site
+    <string name="introTextView">Iron Beast - Simplest 531 App</string>
+    <string name="instruction1TextView">Step 1. You should buy the book to understand the program. Jim Wendler\'s site
     can be found <a href="https://jimwendler.com/">here.</a></string>
-    <string name="instruction2TextView">2. Enter your maxes, template choices, and other variations in the settings option.</string>
-    <string name="instruction3TextView">3. Hit calculate and happy lifting!</string>
-    <string name="calculateButton">Calculate!</string>
+    <string name="instruction2TextView">Step 2. Go to settings and enter your maxes, template choices, and other variations in the settings option.</string>
+    <string name="instruction3TextView">Step 3. Hit calculate and happy lifting!</string>
     <string name="settingsButton">Settings</string>
 
-    <!-- activity_lifts -->
+    <!-- activity_settings -->
 
-    <string name="chooseLiftTextView">Enter your 1 rep maxes to each lift.</string>
+    <string name="chooseLiftTextView">Enter your training maxes to each lift. (It is suggested you start with 90% of your
+    1 rep max)</string>
     <string name="lift1TextView">Press</string>
     <string name="lift2TextView">Squat</string>
     <string name="lift3TextView">Bench</string>
     <string name="lift4TextView">Deadlift</string>
-
-    <!-- activity_settings -->
-
     <string name="homeButton">Return Home</string>
-    <string name="liftsButton">Modify Lifts</string>
-    <string name="variantsButton">Modify Variation</string>
-    <string name="jokersButton">Modify Jokers</string>
-    <string name="downSetsButton">Modify Down Sets</string>
+    <string name="calculateButton">Create Program</string>
+    <string name="settingsIntroTextView">Settings Page</string>
+
+    <!-- activity_program -->
+    <string name="programIntroTextView">Program Page</string>
 
 
 </resources>
