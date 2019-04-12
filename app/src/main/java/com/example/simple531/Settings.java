@@ -16,6 +16,8 @@ public class Settings extends AppCompatActivity {
 
     }
 
+    /* May be implemented in the future for allowing one rep max to be converted to training max.
+
     public void calculatePressTM(View view) {
         try {
             EditText max = findViewById(R.id.lift1EditText);
@@ -26,16 +28,25 @@ public class Settings extends AppCompatActivity {
         }
     }
 
+    */
+
     public void homeMenu(View view) {
-        //Bundle of bundles
-        Bundle allInfo = new Bundle();
-        //allInfo.putBundle("allInfo", maxes);
-        Intent myIntent = new Intent(Settings.this, MainActivity.class);
-        myIntent.putExtra("allInfo", allInfo);
-        Settings.this.startActivity(myIntent);
+        Intent myIntent = new Intent(this, MainActivity.class);
+        startActivity(myIntent);
     }
 
     public void programMenu(View view) {
+        EditText pressMaxTM = findViewById(R.id.lift1EditText);
+        EditText squatMaxTM = findViewById(R.id.lift2EditText);
+        EditText benchMaxTM = findViewById(R.id.lift3EditText);
+        EditText deadliftMaxTM = findViewById(R.id.lift4EditText);
+
+        // Rounds down
+        int pressMax = (int) Double.parseDouble(pressMaxTM.getText().toString());
+        int squatMax = (int) Double.parseDouble(squatMaxTM.getText().toString());
+        int benchMax = (int) Double.parseDouble(benchMaxTM.getText().toString());
+        int deadliftMax = (int) Double.parseDouble(deadliftMaxTM.getText().toString());
+
         Intent myIntent = new Intent(this, Program.class);
         //myIntent.putExtra("allInfo", allInfo);
         startActivity(myIntent);
