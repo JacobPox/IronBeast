@@ -12,7 +12,7 @@
 
     <!-- activity_settings -->
 
-    <string name="chooseLiftTextView">Enter your training maxes (TM) to each lift (it is suggested you start with 90% of your
+    <string name="chooseLiftTextView">Enter your training maxes (TM) for each lift (it is suggested you start with 90% of your
     1 rep max) After each cycle, increase your Press and Bench TM by 5 and your Squat and Deadlift by 10.</string>
     <string name="lift1TextView">Press</string>
     <string name="lift2TextView">Squat</string>
@@ -23,6 +23,7 @@
     <string name="settingsIntroTextView">Settings Page</string>
     <!-- <string name="calculateTMButton">Calculate TM</string> -->
     <string name="templateTextView">Choose a Template</string>
+    <string name="boringButBigRadioButton">Boring But Big</string>
 
     <!-- activity_program -->
     <string name="programIntroTextView">Program Page</string>
