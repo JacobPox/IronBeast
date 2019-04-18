@@ -18,12 +18,21 @@
     <string name="lift2TextView">Squat</string>
     <string name="lift3TextView">Bench</string>
     <string name="lift4TextView">Deadlift</string>
+
     <string name="homeButton">Return Home</string>
     <string name="calculateButton">Create Program</string>
+
     <string name="settingsIntroTextView">Settings Page</string>
-    <!-- <string name="calculateTMButton">Calculate TM</string> -->
+
     <string name="templateTextView">Choose a Template</string>
     <string name="boringButBigRadioButton">Boring But Big</string>
+    <string name="triumvirateRadioButton">Triumvirate</string>
+    <string name="simplestStrengthRadioButton">Simplest Strength</string>
+    <string name="notDoingJackRadioButton">I\'m Not Doing Jack Shit</string>
+
+    <string name="downSetTextView">(Optional) Add a Down Set</string>
+    <string name="pyramidRadioButton">Pyramid Down</string>
+    <string name="firstSetLastRadioButton">First Set Last AMRAP</string>
 
     <!-- activity_program -->
     <string name="programIntroTextView">Program Page</string>
